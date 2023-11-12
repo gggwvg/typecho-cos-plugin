@@ -149,7 +149,7 @@ class Plugin implements PluginInterface
               <?php } ?>
             <?php } ?>
           <?php } ?>
-          <form class="backup" action="?config=<? echo $pluginName; ?>" method="post">
+          <form class="backup" action="?config=<?php echo $pluginName; ?>" method="post">
             <input type="submit" name="type" value="备份设置" />
             <input type="submit" name="type" value="还原备份" />
             <input type="submit" name="type" value="删除备份" />
